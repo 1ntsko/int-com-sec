@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.comment-card,
+.add-comment-section {
+  background-color: #eee;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.reply-com {
+  width: 80%;
+  display: flex;
+  float: right;
+}
+
+.you {
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  padding: 7px 12px;
+  font-size: 15px;
+}
+
+.info {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-info,
+.user-info > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.likes {
+  background-color: hsl(223, 19%, 93%);
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  padding: 5px 0px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.avatar > img,
+.add-comment-section > img {
+  width: 40px;
+  height: 40px;
+}
+
+.pad > span {
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.color-gray {
+  color: gray;
+  font-size: 15px;
+}
+
+.color-purple {
+  color: hsl(238, 40%, 52%);
+}
+
+.add-comment-section > input {
+  width: 80%;
+  padding: 10px 0 70px 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.add-comment-section {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.send {
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
